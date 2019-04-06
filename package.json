@@ -1,0 +1,17 @@
+{
+  "name": "node-http-runner",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Lucas Yang",
+  "main": "http.js",
+  "scripts": {
+    "build": "pkg http.js --out-path dist"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.6.6",
+    "open": "^6.0.0",
+    "pkg": "^4.3.7",
+    "serve-static": "^1.13.2"
+  }
+}
